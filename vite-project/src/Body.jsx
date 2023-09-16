@@ -15,9 +15,9 @@ const defaultEditorContent = {
     type: "doc",
     content: [
       {
-        type: "text",
+        type: "paragraph",
         attrs: { level: 2 },
-        content: [{ type: "text", text: "Use ``` and then paste your code to create an image " }],
+        content: [{ type: "text", text: "Use ```and press Enter ..Remove this line first.." }],
       },],};
       
   return(
@@ -31,7 +31,7 @@ const defaultEditorContent = {
   },
   languageClassPrefix: 'language-',
       })]}
-       storageKey=''/>
+       storageKey={{novel_content:''}}/>
 
        
     </div>

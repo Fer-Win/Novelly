@@ -30,7 +30,7 @@ function App() {
       <Header />
       <h2>Paste Your Code below</h2>
       <Body />
-      <button onClick={()=>{
+      <button className=" bg-indigo-500 text-white px-3 py-2 rounded-md hover:bg-white hover:text-indigo-500"onClick={()=>{
         if(document.querySelector("code-element")){
           createDownload();
         }
