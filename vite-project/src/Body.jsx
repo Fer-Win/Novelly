@@ -15,9 +15,9 @@ const defaultEditorContent = {
     type: "doc",
     content: [
       {
-        type: "heading",
+        type: "text",
         attrs: { level: 2 },
-        content: [{ type: "text", text: "Introducing Novel" }],
+        content: [{ type: "text", text: "Use ``` and then paste your code to create an image " }],
       },],};
       
   return(
