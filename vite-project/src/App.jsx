@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const createDownload = async () => {
     setTimeout(() => {
-      const elementToCapture = document.querySelector('code-element');
+      const elementToCapture = document.querySelector('.code-element');
       html2canvas(elementToCapture).then(canvas => {
         const imageDataURL = canvas.toDataURL('image/jpeg');
 
@@ -30,11 +30,7 @@ function App() {
       <Header />
       <h2>Paste Your Code below</h2>
       <Body />
-      <button className=" bg-indigo-500 text-white px-3 py-2 rounded-md hover:bg-white hover:text-indigo-500"onClick={()=>{
-        if(document.querySelector("code-element")){
-          createDownload();
-        }
-      }}>Download Code</button>
+      <button className=" bg-indigo-500 text-white px-3 py-2 rounded-md hover:bg-white hover:text-indigo-500"onClick={createDownload}>Download Code</button>
     </div>
   );
 }
