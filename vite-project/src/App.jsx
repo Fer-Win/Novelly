@@ -28,6 +28,7 @@ function App() {
   return (
     <div className='h-screen m-0'>
       <Header />
+      <h2>Paste Your Code below</h2>
       <Body />
       <button onClick={()=>{
         if(document.querySelector("code-element")){
