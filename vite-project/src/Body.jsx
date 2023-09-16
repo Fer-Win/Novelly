@@ -27,11 +27,12 @@ const defaultEditorContent = {
        extensions={[CodeBlockLowlight.configure({
         lowlight,
         HTMLAttributes: {
-    class: 'bg-[#1a1a1a] text-white ',
+    class: 'bg-[#1a1a1a] text-white code-element ',
   },
   languageClassPrefix: 'language-',
       })]}
        storageKey=''/>
+
        
     </div>
   )
