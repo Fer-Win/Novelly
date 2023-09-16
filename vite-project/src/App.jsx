@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Header.jsx'
 import Body from './Body.jsx'
-import Footer from './Footer.jsx'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,7 +12,7 @@ function App() {
    <div className='h-screen m-0'>
     <Header/>
     <Body/>
-    <Footer/>
+ 
    </div>
   )
 }
