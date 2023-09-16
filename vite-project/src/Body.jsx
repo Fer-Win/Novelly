@@ -7,10 +7,10 @@ import ts from 'highlight.js/lib/languages/typescript';
 import html from 'highlight.js/lib/languages/xml';
 const Body=()=>{
   const lowlight = createLowlight(common);
-lowlight.register('html',html);
-lowlight.register('css', css);
-lowlight.register('js', js);
-lowlight.register('ts', ts);
+lowlight.register('html',html)
+lowlight.register('css', css)
+lowlight.register('js', js)
+lowlight.register('ts', ts)
 const defaultEditorContent = {
     type: "doc",
     content: [
@@ -27,7 +27,7 @@ const defaultEditorContent = {
        extensions={[CodeBlockLowlight.configure({
         lowlight,
         HTMLAttributes: {
-    class: 'my-custom-class',
+    class: 'bg-[#1a1a1a] text-white ',
   },
   languageClassPrefix: 'language-',
       })]}
