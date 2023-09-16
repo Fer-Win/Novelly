@@ -17,7 +17,7 @@ const defaultEditorContent = {
       {
         type: "paragraph",
         attrs: { level: 2 },
-        content: [{ type: "text", text: "Use ```and press Enter ..Remove this line first.." }],
+        content: [{ type: "text", text: "Use ```and press Enter " }],
       },],};
       
   return(
