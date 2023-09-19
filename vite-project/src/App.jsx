@@ -22,6 +22,7 @@ function App() {
   };
 
   useEffect(() => {
+   removeItem(novel_key);
    createDownload();
   }, []);
 
