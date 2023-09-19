@@ -22,7 +22,7 @@ function App() {
   };
 
   useEffect(() => {
-   removeItem(novel_content);
+
    createDownload();
   }, []);
 
